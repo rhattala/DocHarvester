@@ -1,0 +1,58 @@
+# DocHarvester Coverage Configuration
+# This file defines which lens types are required for different product types
+
+default:
+  required_lenses:
+    - LOGIC
+    - SOP
+  min_documents: 1
+
+product_types:
+  api:
+    required_lenses:
+      - LOGIC
+      - SOP
+      - CL
+    min_documents: 1
+    
+  webapp:
+    required_lenses:
+      - LOGIC
+      - SOP
+      - GTM
+      - CL
+    min_documents: 1
+    
+  library:
+    required_lenses:
+      - LOGIC
+      - SOP
+    min_documents: 2
+    
+  mobile_app:
+    required_lenses:
+      - LOGIC
+      - SOP
+      - GTM
+      - CL
+    min_documents: 1
+    
+  microservice:
+    required_lenses:
+      - LOGIC
+      - SOP
+      - CL
+    min_documents: 1
+    
+  data_pipeline:
+    required_lenses:
+      - LOGIC
+      - SOP
+    min_documents: 1
+    
+  ml_model:
+    required_lenses:
+      - LOGIC
+      - SOP
+      - CL
+    min_documents: 2 
