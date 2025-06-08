@@ -1,4 +1,4 @@
-# 🚀 DocHarvester
+# WORK IN PROGRESS 🚀 DocHarvester
 
 AI-powered document processing and knowledge extraction platform with integrated knowledge graphs and local LLM support.
 
